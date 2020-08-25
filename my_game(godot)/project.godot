@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="my_game(godot)"
-config/icon="res://icon.png"
+run/main_scene="res://src/levels/testLevel.tscn"
 
 [input]
 
@@ -60,7 +60,3 @@ move_jump={
 2d_physics/layer_1="Player"
 2d_physics/layer_2="enemies"
 2d_physics/layer_3="world(last layer)"
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
