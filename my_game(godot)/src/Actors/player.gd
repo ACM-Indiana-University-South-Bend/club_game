@@ -1,7 +1,6 @@
 extends ActorBaseClass
 
 const ACCELERATION =25
-const MAX_SPEED = 200
 const FRICTION = 25
 
 func _physics_process(delta): 
@@ -14,7 +13,7 @@ func calculate_move_velocity(delta):
 
 	if input_vector != Vector2.ZERO:
 		velocity += (input_vector * ACCELERATION) * (delta)
-		velocity = velocity.clamped(MAX_SPEED * delta)
+		velocity = velocity.clamped(speed * delta)
 	else:
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 	print("player position: " + str(get_position()))
