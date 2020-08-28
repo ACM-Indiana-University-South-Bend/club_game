@@ -1,6 +1,8 @@
 # club_game
 Work in progress.
 Please contribute and work as a team with any and all ideas.
+Random assets in assets folder by Sam Nicodemus is licensed under CC BY-SA 4.0
+Code is under Apache 2.0
 
 Using:
 * [Godot](https://godotengine.org/)
